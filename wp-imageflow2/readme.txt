@@ -1,12 +1,12 @@
 === WP Flow Plus ===
 Contributors: spiffyplugins
-Donate link: https://wpflowplus.spiffyplugins.ca/donate
+Donate link: https://spiffyplugins.ca/wp-flow-plus
 Requires at least: 3.0.1
-Tested up to: 6.4
-Stable tag: 5.2.4
+Tested up to: 6.7
+Stable tag: 5.2.5
 License: GPLv2 or later
 
-Tags: picture, pictures, gallery, galleries, imageflow, coverflow, flow, image, images, flow, lightbox, carousel, autorotate, automatic, rotate, media, tags, gutenberg
+Tags: gallery, imageflow, image, lightbox, carousel
 
 Flow style gallery with Lightbox popups. Uses images from the Wordpress Media Library or an uploaded directory of images. 
 
@@ -18,7 +18,7 @@ Display attractive flow style carousel galleries with or without reflections.  E
 
 This is a light script that uses the basic JQuery library. It will display a simple thumbnail list if Javascript is disabled in the browser.
 
-[Demo and Documentation](https://wpflowplus.spiffyplugins.ca)
+[Demo and Documentation](https://spiffyplugins.ca/wp-flow-plus)
 
 = Features =
 
@@ -147,7 +147,7 @@ Specify the caption style. Values are:
 
 == FAQ ==
 
-[Please visit the plugin website for complete documentation and Knowledge Base articles](https://wpflowplus.spiffyplugins.ca)
+[Please visit the plugin website for complete documentation and Knowledge Base articles](https://spiffyplugins.ca/wp-flow-plus)
 
 As a quick test, perform the following steps:
 
@@ -165,6 +165,10 @@ As a quick test, perform the following steps:
 4. Add an image link
 
 == Changelog ==
+
+Version 5.2.5 (January 2, 2025)
+
+* Tweak: update support URL
 
 Version 5.2.4 (September 30, 2024)
 

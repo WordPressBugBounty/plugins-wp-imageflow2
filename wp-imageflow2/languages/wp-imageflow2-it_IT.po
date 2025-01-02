@@ -522,7 +522,7 @@ msgstr ""
 "WP Flow Plus richiede almeno WordPress 2.8.4\n"
 
 #. Plugin URI of the plugin/theme
-msgid "http://www.wpflowplus.spiffyplugins.ca"
+msgid "http://www.spiffyplugins.ca/wp-flow-plus"
 msgstr ""
 
 #. Description of the plugin/theme

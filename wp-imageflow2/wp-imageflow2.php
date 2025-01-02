@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: WP Flow Plus
-Plugin URI: https://wpflowplus.spiffyplugins.ca
+Plugin URI: https://spiffyplugins.ca/wp-flow-plus
 Description: Flow style carousel with Lightbox popups
-Version: 5.2.4
+Version: 5.2.5
 Author: Spiffy Plugins
-Author URI: http://www.spiffyplugins.ca
+Author URI: https://www.spiffyplugins.ca
 Text Domain: wp-imageflow2
 Domain Path: /languages
 
