@@ -68,7 +68,7 @@ Class WPFP_Bonus_Settings {
 		$nocaptions = isset ($attr['nocaptions'])? $attr['nocaptions'] == 'true': $mainoptions['nocaptions'];
 		$slideup = isset ($attr['captions'])? $attr['captions'] == 'slide-up': $options['slide_up'];
 		if (!$nocaptions && $slideup) {	
-			$captions = '<div class="wpif2-slideup-caption"><h4>' . $image_info['title'] . '</h4>';
+			$captions = '<div class="wpif2-slideup-caption"><h4>' . esc_html($image_info['title']) . '</h4>';
 			if ($image_info['desc'] != '') $captions .= '<p>' . wp_kses_post($image_info['desc'])	. '</p>';
 			return $captions . '</div>';
 		} else {

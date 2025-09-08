@@ -3,7 +3,7 @@ Contributors: spiffyplugins
 Donate link: https://spiffyplugins.ca/wp-flow-plus
 Requires at least: 3.0.1
 Tested up to: 6.7
-Stable tag: 5.2.5
+Stable tag: 5.2.6
 License: GPLv2 or later
 
 Tags: gallery, imageflow, image, lightbox, carousel
@@ -165,6 +165,11 @@ As a quick test, perform the following steps:
 4. Add an image link
 
 == Changelog ==
+
+Version 5.2.6 (August 26, 2025)
+
+* Security: sanitize image description and title 
+* Tweak: fix deprecated warnings
 
 Version 5.2.5 (January 2, 2025)
 

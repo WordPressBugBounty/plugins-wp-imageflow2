@@ -3,7 +3,7 @@
 Plugin Name: WP Flow Plus
 Plugin URI: https://spiffyplugins.ca/wp-flow-plus
 Description: Flow style carousel with Lightbox popups
-Version: 5.2.5
+Version: 5.2.6
 Author: Spiffy Plugins
 Author URI: https://www.spiffyplugins.ca
 Text Domain: wp-imageflow2
@@ -54,11 +54,11 @@ Class WPFlowPlus
 			require_once ('includes/shortcode-buttons.php');
 			require_once ('includes/admin/class_admin.php');
 			
-			$this->admin = new WPFlowPlus_Admin();
+			// $this->admin = new WPFlowPlus_Admin();
 		}
 		
 		// Initialize classes
-		$this->render = new WPFlowPlus_Render();
+		// $this->render = new WPFlowPlus_Render();
 		
 		// Hooks and actions
 		add_action('init', array($this, 'action_on_init'));

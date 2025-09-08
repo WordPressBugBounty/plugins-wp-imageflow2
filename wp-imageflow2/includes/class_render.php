@@ -127,7 +127,7 @@ class WPFlowPlus_Render {
 				'small' => $small_image[0],
 				'large' => '',
 				'link'  => get_permalink( $this_post->ID ),
-				'title' => $this_post->post_title,
+				'title' => esc_html($this_post->post_title),
 				'desc'  => '',
 			);
 		}
@@ -457,9 +457,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#00' . substr(
 			$image_list[] = array (
 				'small' => $small_image[0],
 				'large' => $large_image[0],
-				'link'  => $link_url,
-				'title' => $attachment->post_title,
-				'desc'  => $attachment->post_content,
+				'link'  => esc_html($link_url),
+				'title' => esc_html($attachment->post_title),
+				'desc'  => esc_html($attachment->post_content),
 			);
 		}
 		return $image_list;
@@ -513,5 +513,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#00' . substr(
 		return $image_list;
 	  }
 	
+
 }
+
+global $wpfp_render;
+$wpfp_render = new WPFlowPlus_Render();
 }

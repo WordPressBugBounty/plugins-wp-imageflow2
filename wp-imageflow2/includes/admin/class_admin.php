@@ -328,4 +328,7 @@ class WPFlowPlus_Admin {
 	}
 		
 }
+
+global $wpfp_admin;
+$wpfp_admin = new WPFlowPlus_Admin();
 }
